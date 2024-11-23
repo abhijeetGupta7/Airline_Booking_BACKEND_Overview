@@ -11,7 +11,6 @@ A highly scalable airline booking system designed using microservices architectu
 4. [Microservices](#microservices)
 5. [Getting Started](#getting-started)
 6. [Project Repositories](#project-repositories)
-7. [System Architecture](#system-architecture)
 
 ---
 
@@ -74,11 +73,6 @@ This system is built to manage airline operations, including flight management, 
 ### 4. **API Gateway**
 - Routes requests to appropriate microservices and ensures rate-limited access.
 - Repository: [API Gateway](https://github.com/abhijeetGupta7/Airline_API_GATEWAY)
-
----
-
-## **System Architecture**
-![System Architecture Diagram](https://via.placeholder.com/800x400.png?text=Add+Your+System+Architecture+Diagram+Here)
 
 ---
 
