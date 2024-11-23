@@ -1,10 +1,6 @@
-Here’s a professional README for your **Airline Service Overview** repository:
-
----
-
 # **Advanced Microservices-based Airline Booking System**
 
-A highly scalable, fault-tolerant airline booking system designed using microservices architecture. This project emphasizes modularity, scalability, and security, deployed on **AWS** with auto-scaling and load balancing for seamless performance.
+A highly scalable airline booking system designed using microservices architecture. This project emphasizes modularity, scalability, and security, ensuring seamless performance and reliable functionality.
 
 ---
 
@@ -20,9 +16,9 @@ A highly scalable, fault-tolerant airline booking system designed using microser
 ---
 
 ## **About the Project**
-This system is built to manage airline operations, including flight management, user authentication, bookings, and notifications. By leveraging a microservices-based architecture, the project ensures:
+This system is built to manage airline operations, including flight management, bookings, and notifications. By leveraging a microservices-based architecture, the project ensures:
 - **Scalability**: Handles growing user demand with ease.
-- **High Availability**: Ensures zero downtime through load balancing and distributed architecture.
+- **High Availability**: Ensures reliable operations through distributed architecture.
 - **Data Integrity**: Maintains transactional consistency, especially during critical operations like seat booking.
 - **Security**: Incorporates JWT-based authentication and encrypted user credentials.
 
@@ -44,22 +40,14 @@ This system is built to manage airline operations, including flight management, 
 - **JWT**: Token-based authentication for secure access.
 - **bcrypt**: Password hashing to enhance security.
 
-### **Infrastructure**
-- **AWS EC2**: Cloud hosting for microservices.
-- **AWS Load Balancer**: Ensures high availability and fault tolerance.
-
-### **Other Tools**
-- **Docker**: Containerization of services.
-- **Postman**: API testing and documentation.
-
 ---
 
 ## **Features**
 1. **Flight Management**:
    - Manage CRUD operations for flights with a user-friendly API.
    - Robust SQL migrations for seamless schema updates.
-2. **User Authentication**:
-   - Secure login/signup with hashed passwords and token-based authentication.
+2. **Flight Search**:
+   - Efficient search functionality for flights based on user requirements.
 3. **Flight Booking**:
    - Sophisticated seat selection mechanism.
    - Concurrency control to handle simultaneous bookings effectively.
@@ -71,23 +59,19 @@ This system is built to manage airline operations, including flight management, 
 ---
 
 ## **Microservices**
-### 1. **Flight Management Service**
-- Manages flights and related operations.
-- Repository: [Flight Service](https://github.com/abhijeetGupta7/AIrplane_Search_Service)
+### 1. **Airline Search Service**
+- Handles search functionality for flights based on user preferences.
+- Repository: [Airline Search Service](https://github.com/abhijeetGupta7/AIrplane_Search_Service)
 
-### 2. **User Authentication Service**
-- Handles user authentication and management.
-- Repository: [User Service](https://github.com/abhijeetGupta7/Airline_API_GATEWAY)
-
-### 3. **Booking Service**
+### 2. **Booking Service**
 - Core service for handling bookings with data integrity using transactions and locks.
 - Repository: [Booking Service](https://github.com/abhijeetGupta7/Airline_Booking_Service)
 
-### 4. **Notification Service**
+### 3. **Notification Service**
 - Sends notifications using RabbitMQ for asynchronous message queuing.
 - Repository: [Notification Service](https://github.com/abhijeetGupta7/Airline_Notification_Service)
 
-### 5. **API Gateway**
+### 4. **API Gateway**
 - Routes requests to appropriate microservices and ensures rate-limited access.
 - Repository: [API Gateway](https://github.com/abhijeetGupta7/Airline_API_GATEWAY)
 
@@ -103,12 +87,10 @@ This system is built to manage airline operations, including flight management, 
 - **Node.js**: v14.x or above.
 - **MySQL**: 8.0 or above.
 - **RabbitMQ**: Latest stable version.
-- **Docker** (optional for containerization).
 
 ### **Setup**
 1. Clone the repositories listed in the [Project Repositories](#project-repositories) section.
 2. Follow setup instructions in each repository's README.
-3. Use Docker Compose for containerized deployment (if applicable).
 
 ---
 
@@ -121,18 +103,3 @@ This system is built to manage airline operations, including flight management, 
 | Notification Service   | Sends booking notifications using RabbitMQ                  | [Notification Service](https://github.com/abhijeetGupta7/Airline_Notification_Service) |
 
 ---
-
-## **Contributing**
-Contributions are welcome! Please fork the repository and submit a pull request for any changes or enhancements.
-
----
-
-## **Contact**
-For any inquiries or support, contact:
-- **Name**: Abhijeet Gupta
-- **Email**: your-email@example.com
-- **GitHub**: [Abhijeet Gupta](https://github.com/abhijeetGupta7)
-
---- 
-
-Feel free to customize this further with your contact details or additional diagrams/screenshots!
